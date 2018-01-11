@@ -1,0 +1,22 @@
+composer require symfony/finder
+composer require symfony/flex
+composer require form
+composer require symfony/asset
+egulias/email-validator
+composer require doctrine
+symfony/security
+composer require annotations
+sensio/framework-extra-bundle
+symfony/options-resolver => OptionsResolver
+
+Doctrine:
+php bin/console doctrine:database:create  => create new db
+php bin/console doctrine:schema:validate => check validate
+php bin/console doctrine:schema:update --force => update
+php bin/console doctrine:database:drop --force => drop db
+
+
+C:\wamp64\www\my_project_ske\.env => config to connect
+
+
+https://symfony.com/doc/3.4/doctrine.html => Databases and the Doctrine ORM
